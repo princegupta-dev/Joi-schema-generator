@@ -9,6 +9,12 @@ This Visual Studio Code extension allows you to convert sequelize-typescript mod
 - Automatically generates a sample payload for Postman.
 - Automatically detects types and applies validation (email, date, URL, etc.)
 
+## Screenshot
+
+![Alt text](assets/img4.png)
+![Alt text](assets/img2.png)
+![Alt text](assets/img1.png)
+
 ## Usage
 
 1. Open your model file.
