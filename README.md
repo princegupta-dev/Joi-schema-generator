@@ -11,8 +11,16 @@ This Visual Studio Code extension allows you to convert sequelize-typescript mod
 
 ## Screenshot
 
+- Open your model file or new text file.
+
 ![Alt text](assets/img4.png)
+
+- Run the `Convert JSON to Joi` command from the Command Palette or press **Ctrl+Shift+P**.
+
 ![Alt text](assets/img2.png)
+
+- Joi schema and Postman sample will be inserted at the top of your file.
+
 ![Alt text](assets/img1.png)
 
 ## Usage
