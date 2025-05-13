@@ -7,6 +7,7 @@ This Visual Studio Code extension allows you to convert sequelize-typescript mod
 - Converts Sequelize-style models to Joi schema.
 - Skips fields like `id`, `created_at`, `updated_at`, `deleted_at`, etc.
 - Automatically generates a sample payload for Postman.
+- Automatically detects types and applies validation (email, date, URL, etc.)
 
 ## Usage
 
@@ -18,6 +19,24 @@ This Visual Studio Code extension allows you to convert sequelize-typescript mod
 
 No additional setup required.
 
+## 📤 Output Example
+
+```ts
+// Joi Schema Generated
+const schema = Joi.object({
+  name: Joi.string().required(),
+  age: Joi.number().optional(),
+  email: Joi.string().email().required(),
+});
+
+// Postman JSON Payload Sample
+const payload = {
+  "name": "sample_value",
+  "age": 123,
+  "email": "example@example.com"
+};
+
 ---
 
 Made with ❤️ by Prince Gupta.
+```
