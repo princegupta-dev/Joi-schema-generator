@@ -1,6 +1,7 @@
 {
   "name": "joi-schema-generator",
   "displayName": "joi-schema-generator",
+  "publisher": "princegupta",
   "description": "Generate Joi schema and Postman payload from Sequelize/TypeScript interfaces",
   "version": "1.0.0",
   "icon": "icon.png",
